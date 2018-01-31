@@ -10,15 +10,41 @@ A = a.to_i
 print "nhap so b: "
 b = gets 
 B = b.to_i
-print "nhap phep tinh: "
-c = gets
-C = c
-if C == "+"
-    total = A + B
-elsif C == "-"
-        total = A - B
-end
-puts "#{A} #{C} #{B} = #{total}"
+print "Tong: "
+total = A + B
+puts "#{A} + #{B} = #{total}"
+
+print "Hieu: "
+total = A - B
+puts "#{A} - #{B} = #{total}"
+
+print "Tich: "
+total = A * B
+puts "#{A} * #{B} = #{total}"
+
+print "Thuong: "
+total = A / B
+puts "#{A} / #{B} = #{total}"
+
+print "Chia lay du: "
+total = A % B
+puts "#{A} % #{B} = #{total}"
+
+# print "nhap so a: "
+# a = gets
+# A = a.to_i
+# print "nhap so b: "
+# b = gets 
+# B = b.to_i
+# print "nhap phep tinh: "
+# c = gets
+# C = c
+# if C == +
+#     total = A + B
+# elsif C == -
+#     total = A - B
+# end
+# puts "#{A} #{C} #{B} = #{total}"
 
 # total = 2 + 3
 # puts "2 + 3 = #{total}"
@@ -85,3 +111,49 @@ puts "#{A} #{C} #{B} = #{total}"
  
 # arr3 = [1,3,6]
 # puts arr3[0,2].inspect
+
+a =  [1, 2, 3, 4, 5] * 8 
+puts a 
+
+a = ('A'..'Z').to_a
+a.each {|x| print x}
+
+puts 1.class
+
+x = 1
+if x > 2
+puts "x is greater than 2"
+elsif x <= 2 and x!= 0
+puts "x is 1"
+else
+puts "I can't guess the number"
+end
+#!/usr/bin/ruby
+$debug = 1
+print "debug\n" if $debug
+
+ x = 30
+old = if x == 10
+then "10"
+elsif x == 20
+name = "20"
+elsif x == 30 
+then a = 20
+     b =  10
+     tong = a + b
+end
+
+puts old
+
+# x = 10
+# puts 'hello world' if x > 10 
+# then 'out'
+# end
+
+name = case 
+when x == 1 then "one"
+when x == 2 then "two" 
+when x == 3 then "three" 
+when x == 4 then "four" 
+else "many"
+end
