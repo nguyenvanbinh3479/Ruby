@@ -3,7 +3,7 @@
 	# print "hello you"
 # 2. tim do dai chuoi
 
-# 3. 
+# 3. dem so lan ky tu xuat hien trong chuoi
 	str = "hello worlddd"
 	puts "nhap ky tu can tim"
 	key = gets.chomp
