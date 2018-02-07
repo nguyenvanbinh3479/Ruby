@@ -20,10 +20,10 @@
 	# 	end
 	# end
 # 4. bang cuu chuong
-	puts "bang cuu chuong"
-	for i in 1..10
-		for j in 2..9
-			print "#{j} x #{i} = #{j * i} \t"
-		end
-		puts ""
-	end
+	# puts "bang cuu chuong"
+	# for i in 1..10
+	# 	for j in 2..9
+	# 		print "#{j} x #{i} = #{j * i} \t"
+	# 	end
+	# 	puts ""
+	# end
