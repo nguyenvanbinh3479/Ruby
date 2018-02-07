@@ -28,6 +28,5 @@
 	# puts "GTLN là: #{a}" 
 	# puts "GTL2 là: #{b}" 
 	# puts "GTNN là: #{c}"
-# 6. 
 
 	
