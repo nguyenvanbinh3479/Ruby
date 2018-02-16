@@ -2,13 +2,14 @@
 	# puts "hello you"
 	# print "hello you"
 # 2. tim do dai chuoi
-	
+	# str = 'hello there'
+	# puts str.length;
 # 3. dem so lan ky tu xuat hien trong chuoi
-	str = "hello worlddd"
+	puts "nhap chuoi"
+	str = gets
 	puts "nhap ky tu can tim"
 	key = gets.chomp
 	count = 0
-	puts str.size
 	for i in 0..str.size
 		if str[i].eql? key
 			count += 1
