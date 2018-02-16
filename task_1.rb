@@ -61,19 +61,19 @@
 	# 	puts "nam #{a} khong phai la nam nhuan."
 	# end
 # 6. trao doi gia tri bang su dung bien thu 3
-	# print "nhap so a: "
-	# a = gets
-	# a = a.to_i
-	# print "nhap so b: "
-	# b = gets
-	# b = b.to_i
-	# puts "so a truoc khi doi la : #{a}"
-	# puts "so b truoc khi doi la : #{b}"
-	# c = a
-	# a = b 
-	# b = c
-	# puts "so a sau khi doi la : #{a}"
-	# puts "so b sau khi doi la : #{b}"
+	print "nhap so a: "
+	a = gets
+	a = a.to_i
+	print "nhap so b: "
+	b = gets
+	b = b.to_i
+	puts "so a truoc khi doi la : #{a}"
+	puts "so b truoc khi doi la : #{b}"
+	c = a
+	a = b 
+	b = c
+	puts "so a sau khi doi la : #{a}"
+	puts "so b sau khi doi la : #{b}"
 	
 
 	
