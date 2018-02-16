@@ -21,12 +21,12 @@
 	# tb /= array.count 
 	# puts "gia tri trung binh la: #{tb}"
 # 5. tim phan tu lon nhat
-	# range = [2, 3, 4, 5, 6, 7]
-	# a = range.max
-	# b = range.max - 1
-	# c = range.min
-	# puts "GTLN là: #{a}" 
-	# puts "GTL2 là: #{b}" 
-	# puts "GTNN là: #{c}"
+	range = [2, 3, 4, 5, 6, 7]
+	a = range.max
+	b = range.max - 1
+	c = range.min
+	puts "GTLN là: #{a}" 
+	puts "GTL2 là: #{b}" 
+	puts "GTNN là: #{c}"
 
 	
