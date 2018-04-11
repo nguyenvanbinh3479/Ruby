@@ -169,3 +169,15 @@ end
 end
 C.new.my_method
 puts "at top-lever,$global:#{$global},$other_global: #{$other_global}"
+
+
+# Simple method
+def factorial(n)
+    if n < 1
+        raise 'argument must be > 0'
+    elsif n== 1
+        1
+    else
+        n *factorial(n-1)
+    end
+end 
